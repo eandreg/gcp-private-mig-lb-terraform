@@ -38,3 +38,10 @@ terraform.rc
 
 # Ignore keys
 *.json 
+*.pem
+*.key
+*.p12
+
+# Allow files to override negated patterns
+# Remove hash symbol to enable
+# !example.json

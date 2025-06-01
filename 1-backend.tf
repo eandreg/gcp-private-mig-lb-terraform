@@ -1,9 +1,9 @@
 # https://www.terraform.io/language/settings/backends/gcs
 terraform {
   backend "gcs" {
-    bucket      = "aaronmcd-state-files"
-    prefix      = "terraform/052025-mig-alb-private"
-    credentials = "key.json"
+    bucket      = "nycmanhattan04"
+    prefix      = "terraform/state"
+    credentials = "andregrffinclass65-d6a872077315.json"
   }
 
   required_providers {
